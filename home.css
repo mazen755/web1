@@ -1,6 +1,159 @@
-#search-form{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #0f0f0f;
+    color: #fff;
+  }
+  
+  /* Header */
+  .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
-}
+    padding: 20px 60px;
+    background: #1a1a1a;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4655;
+  }
+  
+  .logo span {
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff4655;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('images/bg-anime.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    margin: 15px 0;
+    font-size: 18px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #ff4655;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #e03a4a;
+  }
+  
+  /* Featured Section */
+  .featured {
+    padding: 60px;
+    text-align: center;
+    background-color: #141414;
+  }
+  
+  .featured h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+  
+  .anime-card {
+    background: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  
+  .anime-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .anime-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .anime-card h3 {
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #aaa;
+  }
+/* Search Form */
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-form input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #2a2a2a;
+    color: #fff;
+  }
+  
+  .search-form button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #ff4655;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .search-form button:hover {
+    background: #e03a4a;
+  }
+    

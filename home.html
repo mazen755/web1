@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="home.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime World</title>
+  <link rel="stylesheet" href="home.css" />
 </head>
 <body>
-    <script src="home.js"></script>
-    <section>
-        <nav>
-            <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">video</a></li>
-                <li><a href="">downloads</a></li>
-                <form id="search-form">
-                    <input type="text" id="search-input">
-                    <button type="submit">search</button>
-                </form>
-                <div class="search-result"></div>
-            </ul>
-        </nav>
-    </section>
-    
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Anime<span>World</span></div>
+
+    <form class="search-form">
+<input type="text" placeholder="Search anime..." maxlength="15" required>
+        <button type="submit">Search</button>
+      </form>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Animes</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Anime World</h1>
+      <p>Your favorite anime, all in one place.</p>
+      <a href="#" class="btn">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="featured">
+    <h2>Popular Anime</h2>
+    <div class="anime-grid">
+      <div class="anime-card">
+        <img src="OIP.webp" alt="One Piece" />
+        <h3>One Piece</h3>
+      </div>
+      <div class="anime-card">
+        <img src="OIP (1).webp" alt="Naruto" />
+        <h3>Naruto</h3>
+      </div>
+      <div class="anime-card">
+        <img src="OIP (2).webp" alt="Attack on Titan" />
+        <h3>Attack on Titan</h3>
+      </div>
+      <div class="anime-card">
+        <img src="OIP (3).webp" alt="Demon Slayer" />
+        <h3>Demon Slayer</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Anime World. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
