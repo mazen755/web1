@@ -18,6 +18,15 @@
     justify-content: center;
     display: flex;
 }
+/*@media (max-width: 768px) {
+     تعديلات الموبايل هنا 
+}
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 
 
 .parent-container::before {
@@ -209,3 +218,7 @@ input::placeholder {
     text-decoration: none;
     border-bottom: none;
 }*/
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
